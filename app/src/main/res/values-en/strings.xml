@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Workshop1</string>
+    <string name="Primer_Nombre">First name</string>
+    <string name="Segundo_Apellido">Second surname</string>
+    <string name="Segundo_Nombre">Second name</string>
+    <string name="Primer_Apellido">First surname</string>
+    <string name="Sexo">Sex</string>
+    <string name="Edad">Age</string>
+</resources>

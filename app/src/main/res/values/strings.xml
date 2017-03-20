@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Taller1</string>
+    <string name="Primer_Nombre">Primer Nombre</string>
+    <string name="Segundo_Nombre">Segundo Nombre</string>
+    <string name="Primer_Apellido">Primer Apellido</string>
+    <string name="Segundo_Apellido">Segundo Apellido</string>
+    <string name="Edad">Edad</string>
+    <string name="Sexo">Sexo</string>
+
+</resources>
+

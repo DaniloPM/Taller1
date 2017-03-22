@@ -7,4 +7,10 @@
     <string name="Primer_Apellido">First surname</string>
     <string name="Sexo">Sex</string>
     <string name="Edad">Age</string>
+    <string name="REGISTRO_DE_PERSONAS">PEOPLE LOG</string>
+    <string name="Borrar">CLEAR</string>
+    <string name="Hola">Hi</string>
+    <string name="Años">Years old</string>
+    <string name="y_tu_sexo_es">and you sex is</string>
+    <string name="Mostrar">TO SHOW</string>
 </resources>

@@ -18,7 +18,7 @@ public class Registro extends AppCompatActivity {
 
         Bundle bundle = this.getIntent().getExtras();
 
-        txtMensaje.setText("Hola "+ bundle.getString("Primer_Nombre") + " "+bundle.getString("Segundo_Nombre")
+        txtMensaje.setText("Hola"+ bundle.getString("Primer_Nombre") + " "+bundle.getString("Segundo_Nombre")
                 +" "+bundle.getString("Primer_Apellido")+" "+bundle.getString("Segundo_Apellido")
                 +"Tu edad es "+bundle.getString("Edad")+" años y tu sexo es "+bundle.getString("Sexo"));
 

@@ -6,6 +6,12 @@
     <string name="Segundo_Apellido">Segundo Apellido</string>
     <string name="Edad">Edad</string>
     <string name="Sexo">Sexo</string>
+    <string name="REGISTRO_DE_PERSONAS">REGISTRO DE PERSONAS</string>
+    <string name="Borrar">Borrar</string>
+    <string name="Hola">Hola</string>
+    <string name="Años">Años</string>
+    <string name="y_tu_sexo_es">y tu sexo es</string>
+    <string name="Mostrar">Mostrar</string>
 
 </resources>
 

@@ -28,6 +28,7 @@ private EditText txtPNombre;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_taller1);
+
         //Obtenemos una referencia a los controles de interfaz
         txtPNombre = (EditText) findViewById(R.id.txtPNombre);
         txtSNombre = (EditText) findViewById(R.id.txtSNombre);
@@ -53,8 +54,10 @@ private EditText txtPNombre;
                     Toast.makeText(Taller1.this, "hay campos vacios ",
                             Toast.LENGTH_LONG).show();
                 }else{
+
                     //Creamos el Intent
                     Intent intent = new Intent(Taller1.this, Registro.class);
+
                     //Creamos la información a pasar entre actividades
                     Bundle b = new Bundle();
                     b.putString("Primer_Nombre", txtPNombre.getText().toString());
@@ -63,8 +66,13 @@ private EditText txtPNombre;
                     b.putString("Segundo_Apellido", txtSApellido.getText().toString());
                     b.putString("Edad", txtEdad.getText().toString());
                     b.putString("Sexo", txtSexo.getText().toString());
+
                     //Añadimos la información al intent
                     intent.putExtras(b);
+
+
+
+
                     startActivity(intent);
                 }
             }
@@ -78,6 +86,7 @@ private EditText txtPNombre;
                 txtSexo.setText(" ");
                 txtSNombre.setText(" ");
                 txtPNombre.setText(" ");
+                txtPNombre.requestFocus();
                 txtPApellido.setText(" ");
                 txtSApellido.setText(" ");
             }

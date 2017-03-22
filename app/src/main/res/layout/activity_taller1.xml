@@ -9,24 +9,33 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.danilo.taller1.Taller1">
 
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+    </ScrollView>
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="REGISTRO DE PERSONAS"
+            android:text="@string/REGISTRO_DE_PERSONAS"
             android:layout_gravity="center_horizontal" />
 
         <TextView
             android:layout_width="102dp"
             android:layout_height="wrap_content"
-            android:text="Primer Nombre" />
+            android:text="@string/Primer_Nombre" />
 
         <EditText
             android:layout_width="208dp"
@@ -36,7 +45,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Segundo Nombre"
+            android:text="@string/Segundo_Nombre"
             android:id="@+id/textSNombre" />
 
         <EditText
@@ -47,7 +56,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Primer Apellido" />
+            android:text="@string/Primer_Apellido" />
 
         <EditText
             android:layout_width="213dp"
@@ -57,7 +66,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Segundo Apellido" />
+            android:text="@string/Segundo_Apellido" />
 
         <EditText
             android:layout_width="213dp"
@@ -69,7 +78,7 @@
             android:layout_height="wrap_content"
             android:inputType="phone"
             android:digits="1234567890"
-            android:text="Edad" />
+            android:text="@string/Edad" />
 
         <EditText
             android:layout_width="215dp"
@@ -79,24 +88,32 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sexo" />
+            android:text="@string/Sexo" />
 
         <EditText
             android:layout_width="213dp"
             android:layout_height="wrap_content"
             android:id="@+id/txtSexo" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="MOSTRAR"
-            android:id="@+id/btnMostrar" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="BORRAR"
-            android:id="@+id/btnBorrar" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Mostrar"
+                android:id="@+id/btnMostrar" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Borrar"
+                android:id="@+id/btnBorrar" />
+
+        </LinearLayout>
 
     </LinearLayout>
+
 </RelativeLayout>

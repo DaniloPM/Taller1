@@ -13,107 +13,113 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollView" >
-
-    </ScrollView>
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:weightSum="1">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/REGISTRO_DE_PERSONAS"
-            android:layout_gravity="center_horizontal" />
-
-        <TextView
-            android:layout_width="102dp"
-            android:layout_height="wrap_content"
-            android:text="@string/Primer_Nombre" />
-
-        <EditText
-            android:layout_width="208dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtPNombre" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Segundo_Nombre"
-            android:id="@+id/textSNombre" />
-
-        <EditText
-            android:layout_width="216dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtSNombre" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Primer_Apellido" />
-
-        <EditText
-            android:layout_width="213dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtPApellido" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Segundo_Apellido" />
-
-        <EditText
-            android:layout_width="213dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtSApellido" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="phone"
-            android:digits="1234567890"
-            android:text="@string/Edad" />
-
-        <EditText
-            android:layout_width="215dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtEdad" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Sexo" />
-
-        <EditText
-            android:layout_width="213dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtSexo" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:fillViewport="false">
 
         <LinearLayout
-            android:orientation="horizontal"
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1">
 
-            <Button
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Mostrar"
-                android:id="@+id/btnMostrar" />
+                android:text="@string/REGISTRO_DE_PERSONAS"
+                android:layout_gravity="center_horizontal" />
 
-            <Button
+            <TextView
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Primer_Nombre" />
+
+            <EditText
+                android:layout_width="208dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPNombre" />
+
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Borrar"
-                android:id="@+id/btnBorrar" />
+                android:text="@string/Segundo_Nombre"
+                android:id="@+id/textSNombre" />
+
+            <EditText
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtSNombre" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Primer_Apellido" />
+
+            <EditText
+                android:layout_width="213dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPApellido" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Segundo_Apellido" />
+
+            <EditText
+                android:layout_width="213dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtSApellido" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:digits="1234567890"
+                android:text="@string/Edad" />
+
+            <EditText
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEdad" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Sexo" />
+
+            <EditText
+                android:layout_width="213dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtSexo" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Mostrar"
+                    android:id="@+id/btnMostrar" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Borrar"
+                    android:id="@+id/btnBorrar" />
+
+            </LinearLayout>
 
         </LinearLayout>
-
-    </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>
